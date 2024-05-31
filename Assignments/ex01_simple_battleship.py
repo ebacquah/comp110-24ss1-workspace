@@ -25,7 +25,7 @@ if (guess_1) < 1:
 BLUE_BOX: str = "\U0001F7E6"
 RED_BOX: str = "\U0001F7E5"
 WHITE_BOX: str = "\U00002B1C"
-result: str = WHITE_BOX and RED_BOX
+result: str = ""
 
 if guess_1 == boat_location:
     result = RED_BOX
